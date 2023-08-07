@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4500 -6000 9000 12000">
+  <defs>
+    <path id="gpujs/head" d="M 0,-6000 A 4500 4500 0 0 1 4500,-1500 A 1450 1350 0 0 1 2037.5,-545.125 A 1450 1350 0 0 1 0,-545.125 A 1450 1350 0 0 1 -2037.5,-545.125 A 1450 1350 0 0 1 -4500,-1500 A 4500 4500 0 0 1 0,-6000 Z" />
+    <path id="gpujs/thread" d="M 350,6000 A 350,350 0 0 1 0,5650 C 0,5200 -700,4850 -700,4400 C -700,3950 0,3600 0,3150 C 0,2700 -700,2350 -700,1900 C -700,1450 0,1100 0,650 Q 0,604.75 -23.5,562.5 A 350 350 0 0 1 104.625,84.375 A 350 350 0 0 1 582.74,212.5 Q 700,423.5 700,650 C 700,1100 0,1450 0,1900 C 0,2350 700,2700 700,3150 C 700,3600 0,3950 0,4400 C 0,4850 700,5200 700,5650 A 350,350 0 0 1 350,6000 Z" />
+  </defs>
+  <g id="main" fill="#F3BDDC">
+    <use href="#gpujs/head" />
+    <use href="#gpujs/thread" transform="translate(-2100, 0)" />
+    <use href="#gpujs/thread" transform="translate(-700, 0)" />
+    <use href="#gpujs/thread" transform="translate(700, 0)" />
+    <use href="#gpujs/thread" transform="translate(2100, 0)" />
+  </g>
+</svg>
