@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-3464 -5000 6928 10000">
+  <defs>
+    <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="-1550" y1="1050" x2="0" y2="2500" gradientTransform="matrix(2 0 0 -2 350 2050)">
+      <stop offset="0" stop-color="#b576e9" />
+      <stop offset="1" stop-color="#9764f8" />
+    </linearGradient>
+    <linearGradient id="b" gradientUnits="userSpaceOnUse" x1="-150" y1="-250" x2="-250" y2="-1350" gradientTransform="matrix(2 0 0 -2 350 2050)">
+      <stop offset="0" stop-color="#965ff9" />
+      <stop offset="1" stop-color="#c076e9" />
+    </linearGradient>
+    <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="1050" y1="1850" x2="-1400" y2="300" gradientTransform="matrix(2 0 0 -2 350 2050)">
+      <stop offset="0" stop-color="#9563f9" />
+      <stop offset="1" stop-color="#b073ec" />
+    </linearGradient>
+    <polygon id="zeronet/part" points="-3464,1000 0,3000 1732,2000 1732,200 3464,-800 3464,3000 0,5000 -3464,3000" />
+    <polygon id="zeronet/slash" points="-3464,3000 3464,-1000 3464,-3000 -3464,1000" />
+  </defs>
+  <g id="main">
+    <use href="#zeronet/part" transform="scale(-1)" fill="url(#a)" />
+    <use href="#zeronet/part" fill="url(#b)" />
+    <use href="#zeronet/slash" fill="url(#c)" />
+  </g>
+</svg>
